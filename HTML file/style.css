@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+body{
+    margin: 0;
+   overflow-x: hidden;
+}
+nav{
+    
+    display: flex;
+    background-color: #0a2463;
+    align-items: center;
+    justify-content: space-between;
+}
+*{
+    text-decoration: none;
+}
+.nav_link{
+    list-style: none;
+}
+.nav_link li {
+    display: inline-block;
+    padding: 0px 0px;
+}
+.nav_link li a{
+    padding: 16px 16px;
+    color: #f0f0f0;
+    transition: all 0.3s ease 0s;
+}
+.nav_link li a.active, li a:hover{
+    background-color: #06b8ff;
+    color: aliceblue;
+    border-bottom: 1px solid #f0f0f0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0a2463; 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; 
+}
+
+.dropdown-content a {
+  color: rgb(10, 10, 10);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #06b8ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+main{
+    text-align: center;
+}
+.pic1{
+    float: left;
+    padding: 0px 6px;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+div.gallery{
+   border: 1px solid #797676;
+}
+div.gallery:hover{
+    border: 1px solid #f0cc00;
+}
+* {
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h3{
+    background-color: #0a2463;;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.since{
+  color: blue;
+  font-style: italic;
+}
+.new{
+  color: red;
+  font-style: italic;
+}
